@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B2288847-F481-42C6-9159-D285126AE7EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FOA.Entity.API", "FOA.Entity.API\FOA.Entity.API.csproj", "{6D25FB08-BD87-45EF-AFD0-E0667BCFB7A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FOA.Entity.API.UnitTests", "FOA.Entity.API.UnitTests\FOA.Entity.API.UnitTests.csproj", "{3A8F4DEC-B555-472E-872A-D804CA08CC0A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FOA.Entity.DataAccess", "FOA.Entity.DataAccess\FOA.Entity.DataAccess.csproj", "{DFFD894E-2913-4073-A06A-9F14ECB9CB45}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FOA.Entity.Domain", "FOA.Entity.Domain\FOA.Entity.Domain.csproj", "{A3B55E84-65D0-4BEB-8780-F711538D1C7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Dev|Any CPU = Dev|Any CPU
+		Int|Any CPU = Int|Any CPU
+		Live|Any CPU = Live|Any CPU
+		Test|Any CPU = Test|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D25FB08-BD87-45EF-AFD0-E0667BCFB7A7}.Dev|Any CPU.ActiveCfg = Dev|Any CPU
+		{6D25FB08-BD87-45EF-AFD0-E0667BCFB7A7}.Dev|Any CPU.Build.0 = Dev|Any CPU
+		{6D25FB08-BD87-45EF-AFD0-E0667BCFB7A7}.Int|Any CPU.ActiveCfg = Int|Any CPU
+		{6D25FB08-BD87-45EF-AFD0-E0667BCFB7A7}.Int|Any CPU.Build.0 = Int|Any CPU
+		{6D25FB08-BD87-45EF-AFD0-E0667BCFB7A7}.Live|Any CPU.ActiveCfg = Live|Any CPU
+		{6D25FB08-BD87-45EF-AFD0-E0667BCFB7A7}.Live|Any CPU.Build.0 = Live|Any CPU
+		{6D25FB08-BD87-45EF-AFD0-E0667BCFB7A7}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{6D25FB08-BD87-45EF-AFD0-E0667BCFB7A7}.Test|Any CPU.Build.0 = Test|Any CPU
+		{3A8F4DEC-B555-472E-872A-D804CA08CC0A}.Dev|Any CPU.ActiveCfg = Dev|Any CPU
+		{3A8F4DEC-B555-472E-872A-D804CA08CC0A}.Int|Any CPU.ActiveCfg = Int|Any CPU
+		{3A8F4DEC-B555-472E-872A-D804CA08CC0A}.Int|Any CPU.Build.0 = Int|Any CPU
+		{3A8F4DEC-B555-472E-872A-D804CA08CC0A}.Live|Any CPU.ActiveCfg = Live|Any CPU
+		{3A8F4DEC-B555-472E-872A-D804CA08CC0A}.Live|Any CPU.Build.0 = Live|Any CPU
+		{3A8F4DEC-B555-472E-872A-D804CA08CC0A}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{3A8F4DEC-B555-472E-872A-D804CA08CC0A}.Test|Any CPU.Build.0 = Test|Any CPU
+		{DFFD894E-2913-4073-A06A-9F14ECB9CB45}.Dev|Any CPU.ActiveCfg = Dev|Any CPU
+		{DFFD894E-2913-4073-A06A-9F14ECB9CB45}.Dev|Any CPU.Build.0 = Dev|Any CPU
+		{DFFD894E-2913-4073-A06A-9F14ECB9CB45}.Int|Any CPU.ActiveCfg = Live|Any CPU
+		{DFFD894E-2913-4073-A06A-9F14ECB9CB45}.Int|Any CPU.Build.0 = Live|Any CPU
+		{DFFD894E-2913-4073-A06A-9F14ECB9CB45}.Live|Any CPU.ActiveCfg = Live|Any CPU
+		{DFFD894E-2913-4073-A06A-9F14ECB9CB45}.Live|Any CPU.Build.0 = Live|Any CPU
+		{DFFD894E-2913-4073-A06A-9F14ECB9CB45}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{DFFD894E-2913-4073-A06A-9F14ECB9CB45}.Test|Any CPU.Build.0 = Test|Any CPU
+		{A3B55E84-65D0-4BEB-8780-F711538D1C7A}.Dev|Any CPU.ActiveCfg = Dev|Any CPU
+		{A3B55E84-65D0-4BEB-8780-F711538D1C7A}.Dev|Any CPU.Build.0 = Dev|Any CPU
+		{A3B55E84-65D0-4BEB-8780-F711538D1C7A}.Int|Any CPU.ActiveCfg = Live|Any CPU
+		{A3B55E84-65D0-4BEB-8780-F711538D1C7A}.Int|Any CPU.Build.0 = Live|Any CPU
+		{A3B55E84-65D0-4BEB-8780-F711538D1C7A}.Live|Any CPU.ActiveCfg = Live|Any CPU
+		{A3B55E84-65D0-4BEB-8780-F711538D1C7A}.Live|Any CPU.Build.0 = Live|Any CPU
+		{A3B55E84-65D0-4BEB-8780-F711538D1C7A}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{A3B55E84-65D0-4BEB-8780-F711538D1C7A}.Test|Any CPU.Build.0 = Test|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3A8F4DEC-B555-472E-872A-D804CA08CC0A} = {B2288847-F481-42C6-9159-D285126AE7EF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3409FD88-5502-4599-8127-CE26B9907176}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs.gam.com:8080/tfs/gam_default_collection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = FOA.Entity.API\\FOA.Entity.API.csproj
+		SccProjectName1 = FOA.Entity.API
+		SccLocalPath1 = FOA.Entity.API
+		SccProjectUniqueName2 = FOA.Entity.API.UnitTests\\FOA.Entity.API.UnitTests.csproj
+		SccProjectTopLevelParentUniqueName2 = FOA.Entity.API.sln
+		SccProjectName2 = FOA.Entity.API.UnitTests
+		SccLocalPath2 = FOA.Entity.API.UnitTests
+		SccProjectUniqueName3 = FOA.Entity.DataAccess\\FOA.Entity.DataAccess.csproj
+		SccProjectName3 = FOA.Entity.DataAccess
+		SccLocalPath3 = FOA.Entity.DataAccess
+		SccProjectUniqueName4 = FOA.Entity.Domain\\FOA.Entity.Domain.csproj
+		SccProjectName4 = FOA.Entity.Domain
+		SccLocalPath4 = FOA.Entity.Domain
+	EndGlobalSection
+EndGlobal
